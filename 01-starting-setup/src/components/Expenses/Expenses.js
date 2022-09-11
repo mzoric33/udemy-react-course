@@ -3,7 +3,7 @@ import Card from "../UI/Card";
 import ExpensesList from "./ExpensesList";
 import ExpensesFilter from "./ExpensesFIlter";
 import ExpensesChart from "./ExpensesChart";
-import { useEffect, useState, useRef } from "react";
+import { useState } from "react";
 
 function Expenses(props) {
   const [selectedYear, setSelectedYear] = useState("2020");
